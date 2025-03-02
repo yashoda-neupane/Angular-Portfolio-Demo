@@ -1,0 +1,16 @@
+<div class="container">
+    <h2 class="title">Portfolio</h2>
+  
+    <div class="icons-container">
+        <i class="bi bi-laptop icon highlight"></i>  
+        <i class="bi bi-image icon"></i>
+        <i class="bi bi-camera icon"></i>
+    </div>
+  
+    
+    <div class="grid">
+      @for (img of images; track img) {
+        <img [src]="img" alt="Portfolio Image">
+      }
+    </div>
+  </div>

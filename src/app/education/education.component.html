@@ -1,0 +1,19 @@
+<div class="education-container">
+   
+    <div class="education-content">
+      <h2>Education</h2>
+  
+      <div class="education-item" *ngFor="let education of educationList">
+        <div class="left-side">
+          <p class="years">{{ education.yearStart }} - {{ education.yearEnd }}</p>
+          <p class="level">{{ education.level }}</p>
+        </div>
+  
+        <div class="right-side">
+          <p class="degree">{{ education.degree }}</p> 
+          <p class="university">{{ education.university }}</p>
+          <p class="description">{{ education.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,71 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin:auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .education-content {
+    max-width: 850px;
+    width: 100%;
+  }
+  
+  .education-content h2 {
+    text-align: center; 
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .education-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff; 
+  }
+  
+  .left-side {
+    flex: 1;
+    text-align: centre;
+    padding-right: 20px;
+    background-color: #4CAF70; 
+    color: #fff; 
+    padding: 10px; 
+  }
+  
+  .right-side {
+    flex: 3;
+    padding-left: 20px;
+    background-color: #fff; 
+  }
+  
+  .years {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .level {
+    font-size: 1.1em;
+    margin: 5px 0;
+    font-weight: bold; 
+  }
+  
+  .degree {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 5px 0; 
+  }
+  
+  .university {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+  }

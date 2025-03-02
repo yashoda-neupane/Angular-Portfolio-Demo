@@ -1,0 +1,32 @@
+.profile-summary {
+    padding: 10px 0;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: whitesmoke;
+  }
+  
+  .buttons .btn {
+    padding: 10px 20px;
+  }
+  
+  .social-icons a {
+    color: gray;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }

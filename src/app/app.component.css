@@ -1,0 +1,15 @@
+.header-background {
+    background-image: url('/assets/bridge-image.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    padding: auto; 
+    min-height: 300px;    
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }

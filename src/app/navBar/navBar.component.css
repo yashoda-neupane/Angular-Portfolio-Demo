@@ -1,0 +1,14 @@
+.navbar {
+    background-color: light green;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    margin-left: 20px;
+  }

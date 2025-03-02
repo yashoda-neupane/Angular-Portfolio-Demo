@@ -1,0 +1,29 @@
+<div class="work-experience-container">
+    <h2 class="section-title">Work Experience</h2>
+  
+    <div class="experience-card" *ngFor="let experience of workExperiences">
+      <div class="time-period">
+        <p class="date">
+          <ng-container *ngIf="experience.start !== 'Present' else presentStart">
+            {{ formatDate(experience.start) | date: 'MMMM yyyy' }}
+          </ng-container>
+          <ng-template #presentStart>Present</ng-template>
+  
+          - 
+  
+          <ng-container *ngIf="experience.end !== 'Present' else presentEnd">
+            {{ formatDate(experience.end) | date: 'MMMM yyyy' }}
+          </ng-container>
+          <ng-template #presentEnd>Present</ng-template>
+        </p>
+        
+        <h3 class="company">{{ experience.company }}</h3>
+      </div>
+  
+      <div class="experience-content">
+        <h3 class="title">{{ experience.title }}</h3>
+        <p class="description">{{ experience.description }}</p>
+      </div>
+    </div>
+  </div>
+  
