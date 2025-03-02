@@ -6,7 +6,7 @@ import { Injectable } from "@angular/core";
 export class AboutService {
     
     private aboutData = {
-        name: 'Evika Kandel',
+        name: 'Evika Nomi',
         profession: 'Web Developer, Graphic Designer and Photographer',
         description: `Creative CV is an HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills, and experience.`,
         learnMoreLink: '#',
